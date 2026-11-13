@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Launch matrix server and tests
-    runs-on: macos-27
+    runs-on: macos-15
     steps:
       - uses: actions/checkout@v5
       
